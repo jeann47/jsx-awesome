@@ -1,5 +1,5 @@
 {
-  "name": "tem4",
+  "name": "ProjectName",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,10 @@
     "prettier-check": "prettier --list-different **/*.{js,jsx}",
     "lint-fix": "eslint src --ext .js,.jsx --fix",
     "lint-check": "eslint src --ext .js,.jsx",
-    "test": "npx cavy run-android",
-    "fast-test": "npx cavy run-android --skipbuild",
+    "test-android": "npx cavy run-android",
+    "test-ios": "npx cavy run-ios",
+    "fast-test-android": "npx cavy run-android --skipbuild",
+    "fast-test-ios": "npx cavy run-ios --skipbuild",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -40,6 +42,8 @@
     "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4",
+    "lint-staged": "^10.5.3",
+    "husky": "^4.3.6",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.2.1",
@@ -48,5 +52,14 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn test-ios || yarn test-android"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
