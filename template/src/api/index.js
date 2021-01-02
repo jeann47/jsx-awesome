@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { API_URL, API_VERSION } from '@env'
 import { decamelizeKeys, camelizeKeys } from 'humps'
-import { readFromStorage } from 'src/Storage/manage-storage'
+import { readFromStorage } from 'src/storage/handle-async-storage'
 function request() {
   const instance = axios.create({
     baseURL: `${API_URL}`,
