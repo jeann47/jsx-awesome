@@ -1,8 +1,8 @@
 {
-  "name": "react-native-template-jsx-awesome",
-  "version": "0.0.8",
-  "description": "React Native Template",
-  "repository": "git@github.com:jeann47/react-native-template-jsx-awesome.git",
+  "name": "jsx-awesome",
+  "version": "1.0.0",
+  "description": "React Native JSX Template",
+  "repository": "git@github.com:jeann47/jsx-awesome.git",
   "author": "Jeann Carlos <jeann.carlos4@gmail.com>",
   "license": "MIT"
 }
