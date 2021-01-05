@@ -9,60 +9,100 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/home/jeans/jsx-awesome/template/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/jeans/jsx-awesome/template/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 13-->[com.facebook.flipper:flipper:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:6:5-25:19
-16        android:name="com.projectname.MainApplication"
-16-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/debug/AndroidManifest.xml:7:18-53
-25        <activity
-25-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:13:7-23:18
-26            android:name="com.projectname.MainActivity"
-26-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:14:9-37
-27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-27-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:16:9-86
-28            android:label="@string/app_name"
-28-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:15:9-41
-29            android:launchMode="singleTask"
-29-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:17:9-40
-30            android:windowSoftInputMode="adjustResize" >
-30-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:18:9-51
-31            <intent-filter>
-31-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:19:9-22:25
-32                <action android:name="android.intent.action.MAIN" />
-32-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:20:13-65
-32-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:20:21-62
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:21:13-73
-34-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:21:23-70
-35            </intent-filter>
-36        </activity>
-37        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-37-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:24:7-84
-37-->/home/jeans/react-native-template-jsx-awesome/template/android/app/src/main/AndroidManifest.xml:24:17-81
-38    </application>
-39
-40</manifest>
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-iid:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-iid:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.1.2] /home/jeans/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.1.2] /home/jeans/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:6:5-25:19
+18        android:name="com.projectname.MainApplication"
+18-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/home/jeans/jsx-awesome/template/android/app/src/debug/AndroidManifest.xml:7:18-53
+27        <activity
+27-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:13:7-23:18
+28            android:name="com.projectname.MainActivity"
+28-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:14:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:16:9-86
+30            android:label="@string/app_name"
+30-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:15:9-41
+31            android:launchMode="singleTask"
+31-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:17:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:19:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:20:13-65
+34-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:20:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:21:13-73
+36-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:24:7-84
+39-->/home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:24:17-81
+40
+41        <receiver
+41-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-22:20
+42            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+42-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-70
+43            android:enabled="true"
+43-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-35
+44            android:exported="true"
+44-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+45            android:permission="android.permission.INSTALL_PACKAGES" >
+45-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-69
+46            <intent-filter>
+46-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+47                <action android:name="com.android.vending.INSTALL_REFERRER" />
+47-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+47-->[:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+48            </intent-filter>
+49        </receiver>
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+55
+56        <meta-data
+56-->[com.google.android.gms:play-services-basement:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fe0fcf900de239bf24f879ebba8ea48f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+57            android:name="com.google.android.gms.version"
+57-->[com.google.android.gms:play-services-basement:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fe0fcf900de239bf24f879ebba8ea48f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->[com.google.android.gms:play-services-basement:17.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/fe0fcf900de239bf24f879ebba8ea48f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+59    </application>
+60
+61</manifest>

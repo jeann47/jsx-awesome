@@ -46,4 +46,4 @@ function request() {
   return instance
 }
 
-export default request
+export default request()
