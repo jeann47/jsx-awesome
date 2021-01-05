@@ -5,6 +5,7 @@ INJECTED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManif
 INJECTED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:1:1-27:12
 INJECTED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:1:1-27:12
 MERGED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [hermes-debug.aar] /home/jeans/.gradle/caches/transforms-2/files-2.1/1e182a00d01570da1da0a900e71967fd/hermes-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/dd7dfafbb0af41b4347f18654ea5c436/flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
@@ -12,7 +13,6 @@ MERGED from [:react-native-community_async-storage] /home/jeans/jsx-awesome/temp
 MERGED from [:react-native-device-info] /home/jeans/jsx-awesome/template/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-25:12
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jeans/.gradle/caches/transforms-2/files-2.1/7e7a552b6e3ae7da53ba53dbc06f4637/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [org.webkit:android-jsc:r245459] /home/jeans/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/e9f56679cbe795a6f7c93e9a035f66f2/fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -170,6 +170,8 @@ uses-sdk
 INJECTED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/jeans/jsx-awesome/template/android/app/src/main/AndroidManifest.xml
+MERGED from [hermes-debug.aar] /home/jeans/.gradle/caches/transforms-2/files-2.1/1e182a00d01570da1da0a900e71967fd/hermes-debug/AndroidManifest.xml:5:5-44
+MERGED from [hermes-debug.aar] /home/jeans/.gradle/caches/transforms-2/files-2.1/1e182a00d01570da1da0a900e71967fd/hermes-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/bd2cab46fd45b530a274001375333ead/flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
@@ -184,8 +186,6 @@ MERGED from [com.facebook.react:react-native:0.63.4] /home/jeans/.gradle/caches/
 MERGED from [com.facebook.react:react-native:0.63.4] /home/jeans/.gradle/caches/transforms-2/files-2.1/7e7a552b6e3ae7da53ba53dbc06f4637/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [org.webkit:android-jsc:r245459] /home/jeans/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/jeans/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/40741ffe3de6a11d99116b4e82d60d46/flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/jeans/.gradle/caches/transforms-2/files-2.1/03aa51752e7d7098a02114b07907dabd/stetho-2.2.0/AndroidManifest.xml:5:5-7:41
