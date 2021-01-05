@@ -1,10 +1,9 @@
-import { useCavy } from 'cavy'
+import { useCavy as cavyHook } from 'cavy'
 
-export function useTestHook(id, ref) {
-  const generateTestHook = useCavy()
+export function useCavy() {
   if (__DEV__) {
-    return generateTestHook(id, ref)
+    return cavyHook()
   } else {
-    return ref
+    return (_id, ref) => ref
   }
 }

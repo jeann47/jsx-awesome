@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { useTestHook } from '~/hooks/useCavy'
+import { useCavy } from '~/hooks/useCavy'
 import { SafeAreaView, Button, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native'
 import { Header, Colors, ReloadInstructions } from 'react-native/Libraries/NewAppScreen'
 
 export default function App() {
   const [show, setShow] = useState(false)
+  const generateTestHook = useCavy()
 
   return (
     <>
@@ -17,17 +18,17 @@ export default function App() {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
-          <View ref={useTestHook('Container')} style={styles.body}>
+          <View ref={generateTestHook('Container')} style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
             </View>
-            <Button ref={useTestHook('Button')} title="heloo" onPress={() => setShow(!show)} />
+            <Button ref={generateTestHook('Button')} title="heloo" onPress={() => setShow(!show)} />
             {show && (
               <View
-                ref={useTestHook('Box')}
+                ref={generateTestHook('Box')}
                 style={{
                   width: 150,
                   height: 150
